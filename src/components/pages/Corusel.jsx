@@ -68,7 +68,7 @@ export const Corusel = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ ease: "easeOut", duration: 1.5 }}
-      className="  relative1 mt-[5px] overflow-hidden md:h-[60vh] h-[270px] md:mx-[70px] "
+      className="  relative1 mt-[5px] overflow-hidden md:h-[60vh] h-[240px] md:mx-[70px] "
     >
       <motion.div
         drag="x"

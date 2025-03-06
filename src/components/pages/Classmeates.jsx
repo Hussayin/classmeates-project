@@ -21,7 +21,7 @@ const Classmeates = () => {
           >
             <img
               src={product.manImage}
-              className=" h-[460px]"
+              className=" h-[480px]"
               alt={product.manName}
             />
             <h1 className=" font-nunito text-[30px]">Anvar Yo'ldashev</h1>
