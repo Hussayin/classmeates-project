@@ -21,10 +21,10 @@ const Classmeates = () => {
           >
             <img
               src={product.manImage}
-              className=" h-[480px]"
+              className=" h-[490px]"
               alt={product.manName}
             />
-            <h1 className=" font-nunito text-[30px]">Anvar Yo'ldashev</h1>
+            <h1 className=" font-nunito text-[30px]">{product.manName}</h1>
           </motion.div>
         ))}
 
