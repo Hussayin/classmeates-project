@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div>
       {/* navbar */}
-      <div className=" z-[10000]  border-b-[2px] border-solid dark:border-black rounded-b-[15px] bg-[black] dark:bg-white  md:text-white dark:text-black flex justify-between py-[20px] items-center w-[100%] border-white px-[25px] md:px-[40px]  m-auto ">
+      <div className=" z-[1000000000000000] fixed top-0 border-b-[2px] border-solid dark:border-black rounded-b-[15px] bg-[black] dark:bg-white  md:text-white dark:text-black flex justify-between py-[20px] items-center w-[100%] border-white px-[25px] md:px-[40px]  m-auto ">
         <div>
           <h1 className=" font-kanit text-[22px] ">11-A classmeats</h1>
         </div>
@@ -66,7 +66,8 @@ const Navbar = () => {
             </div>
             {/* Social medi and servise */}
             <div className=" flex justify-center mt-[30px] items-center flex-col gap-[20px]">
-              <motion.a
+              <Link to="/game">Go to game</Link>
+              {/* <motion.a
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{
@@ -80,7 +81,7 @@ const Navbar = () => {
               >
                 Telegram Mini app
                 <BsTelegram className=" absolute left-[15px] text-[30px]  " />
-              </motion.a>
+              </motion.a> */}
             </div>
           </div>
         )}

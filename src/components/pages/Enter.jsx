@@ -1,14 +1,14 @@
 import Classmeates from "./Classmeates";
 import { Corusel } from "./Corusel";
-import { Corusel2 } from "./Corusel2";
+import FullscreenCarousel from "./Corusel2";
 import Navbar from "./Navbar";
 
 const Enter = () => {
   return (
     <div className=" overflow-hidden">
       <Navbar />
-      <Corusel />
-      <Corusel2 />
+      <FullscreenCarousel />
+      {/* <Corusel /> */}
       <Classmeates />
     </div>
   );

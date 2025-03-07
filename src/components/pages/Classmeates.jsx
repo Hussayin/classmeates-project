@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 
 const Classmeates = () => {
   return (
-    <div className="mt-[40px] px-[10px]">
-      <h1 className="font-nunito text-[30px]">Classmates</h1>
-      <div className="flex flex-col gap-[60px] mt-[30px] ">
+    <div id="classmeates" className="mt-[40px] px-[20px]">
+      <h1 className="font-nunito text-center text-[30px]">Classmates</h1>
+      <div className="flex flex-col gap-[60px] mt-[50px] ">
         {Sinifdoshlar.map((product, index) => (
           <motion.div
             key={product.id} // Har bir element uchun unique key qo‘shildi
@@ -14,10 +14,10 @@ const Classmeates = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{
               ease: "easeOut",
-              duration: 0.8,
-              delay: 0.4, // Har bir element 0.1s farq bilan chiqadi
+              duration: 0.6,
+              delay: 0.2, // Har bir element 0.1s farq bilan chiqadi
             }}
-            className=" flex justify-center items-center gap-[6px] flex-col "
+            className=" pb-[20px] border-b-[3px] rounded-[25px]  flex justify-center items-center gap-[6px] flex-col "
           >
             <img
               src={product.manImage}
