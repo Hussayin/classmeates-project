@@ -31,7 +31,7 @@ const FullscreenCarousel = () => {
   }, []);
 
   return (
-    <div className="w-screen h-screen overflow-hidden mt-[50px] relative">
+    <div className="w-screen h-[95vh] overflow-hidden mt-[50px] relative">
       <AnimatePresence>
         <motion.img
           key={index}
