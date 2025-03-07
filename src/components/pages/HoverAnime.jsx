@@ -5,7 +5,7 @@ import { TbHandClick } from "react-icons/tb";
 
 export const Example = () => {
   return (
-    <div className=" absolute z-[100000000000000000] w-[100%] h-[100vh] top-0 ">
+    <div className=" absolute z-[1000000000] w-[100%] h-[100vh] top-0 ">
       <MouseImageTrail
         renderImageBuffer={50}
         rotationRange={25}
@@ -18,7 +18,7 @@ export const Example = () => {
         ]}
       >
         <section className="grid h-screen w-[100%] place-content-center bg-[#00000018] place-items-center ">
-          <p className="flex items-center gap-2 text-3xl font-bold uppercase absolute bottom-[200px] text-white">
+          <p className="flex items-center gap-2 text-3xl font-bold uppercase absolute bottom-[170px] text-white">
             <TbHandClick />
           </p>
         </section>

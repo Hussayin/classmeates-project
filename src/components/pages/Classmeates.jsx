@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Classmeates = () => {
   return (
-    <div id="classmeates" className="mt-[40px] px-[20px]">
+    <div id="classmeates" className="mt-[40px] mb-[50px] px-[20px]">
       <h1 className="font-nunito text-center text-[30px]">Classmates</h1>
       <div className="flex flex-col gap-[60px] mt-[50px] ">
         {Sinifdoshlar.map((product, index) => (

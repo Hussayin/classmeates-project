@@ -1,7 +1,7 @@
 import Classmeates from "./Classmeates";
-import { Corusel } from "./Corusel";
 import FullscreenCarousel from "./Corusel2";
 import { Example } from "./HoverAnime";
+import ImageGallery from "./ImagesBar";
 import Navbar from "./Navbar";
 
 const Enter = () => {
@@ -10,8 +10,8 @@ const Enter = () => {
       <Navbar />
       <FullscreenCarousel />
       <Example />
-      {/* <Corusel /> */}
       <Classmeates />
+      <ImageGallery />
     </div>
   );
 };
