@@ -47,9 +47,9 @@ const FullscreenCarousel = () => {
       </AnimatePresence>
       <a
         href="#classmeates"
-        className=" absolute bottom-[90px] z-[100000] flex justify-center items-center w-[100%] "
+        className=" absolute bottom-[110px] z-[100000] flex justify-center items-center w-[100%] "
       >
-        <h1 className=" bg-[#000000ca] text-[25px] px-[25px] py-[10px] rounded-2xl  ">
+        <h1 className=" bg-[#000000ca] text-[20px] px-[25px] py-[10px] rounded-2xl  ">
           Scroll down
         </h1>
       </a>

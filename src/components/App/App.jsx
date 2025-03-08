@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Enter from "../pages/Enter";
-import DinoGame from "./DinoGame";
 import InstallPrompt from "./InstallModal";
 
 function App() {
@@ -10,7 +9,6 @@ function App() {
         <InstallPrompt />
         <Routes>
           <Route path="/" element={<Enter />} />
-          <Route path="/game" element={<DinoGame />} />
         </Routes>
       </BrowserRouter>
     </div>

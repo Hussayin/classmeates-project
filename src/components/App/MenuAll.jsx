@@ -13,7 +13,7 @@ const MenuAll = () => {
         duration: 0.4, // Animatsiya davomiyligi
         delay: 0.1,
       }}
-      className=" font-bold bg-[#000000] border-[white] border-t-[3px] rounded-t-[17px] p-[13px] pb-[17px] fixed bottom-0 w-[100%] dark:text-white gap-[25px] z-[10000000000] flex items-center text-center"
+      className=" font-bold bg-[#000000] border-[white] border-t-[3px] rounded-t-[17px] p-[12px] pb-[17px] fixed bottom-0 w-[100%] dark:text-white gap-[25px] z-[10000000000] flex items-center text-center"
     >
       {/* top watchs */}
       <a
