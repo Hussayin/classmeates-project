@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { heart } from "../../assets";
 
 const images = [
   "https://classmeats-uz.netlify.app/mans-down/zuxra.webp",

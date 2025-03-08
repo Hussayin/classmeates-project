@@ -14,6 +14,7 @@ import { Link } from "react-router-dom";
 import { MdMiscellaneousServices } from "react-icons/md";
 import { MdSell } from "react-icons/md";
 import { FaMapLocationDot } from "react-icons/fa6";
+import { Location } from "../../assets";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -66,22 +67,59 @@ const Navbar = () => {
             </div>
             {/* Social medi and servise */}
             <div className=" flex justify-center mt-[30px] items-center flex-col gap-[20px]">
-              <Link to="/game">Go to game</Link>
-              {/* <motion.a
-                initial={{ opacity: 0, x: -50 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{
-                  ease: "easeOut", // Easing funksiyasi
-                  duration: 1, // Animatsiya davomiyligi
-                  delay: 0.2,
-                }}
+              <h1 className=" font-nunito text-[23px] text-center ">
+                Toshkent shahar 22-son Lelenskiy maktabining 2025-yilning 11-A
+                sinf o'quchilari.
+              </h1>
+              <div className=" mt-[10px] bg-white rounded-2xl ">
+                <img
+                  src=""
+                  alt="diredtor"
+                  className=" rounded-2xl h-[200px] w-[90vw] border-b-2 border-black "
+                />
+                <div className=" p-[9px]">
+                  <h1 className=" text-[17px] font-nunito leading-4 font-bold text-black ">
+                    Direcrot:
+                  </h1>
+                  <h1 className=" text-[25px] text-black font-bold font-nunito ">
+                    Director name
+                  </h1>
+                </div>
+              </div>
+
+              <div className=" mt-[10px] bg-white rounded-2xl ">
+                <img
+                  src=""
+                  alt="diredtor"
+                  className=" rounded-2xl h-[200px] w-[90vw] border-b-2 border-black "
+                />
+                <div className=" p-[9px]">
+                  <h1 className=" text-[17px] font-nunito leading-4 font-bold text-black ">
+                    Teacher:
+                  </h1>
+                  <h1 className=" text-[25px] text-black font-bold font-nunito ">
+                    Teacher name
+                  </h1>
+                </div>
+              </div>
+
+              {/* location */}
+              <a
                 target="_blank"
-                href="https://t.me/the_watch_outlet_bot"
-                className=" flex justify-center bg-white text-black dark:text-black dark:border-black font-bold items-center relative border-2 p-[7px] rounded-[15px] text-center font-nunito text-[20px] border-white w-[100%] "
+                href="https://maps.app.goo.gl/omJvA17WGV8NsfkD7"
+                className=" mt-[10px] bg-white rounded-2xl "
               >
-                Telegram Mini app
-                <BsTelegram className=" absolute left-[15px] text-[30px]  " />
-              </motion.a> */}
+                <img
+                  src={Location}
+                  alt="diredtor"
+                  className=" rounded-2xl h-[200px] w-[90vw] border-b-2 border-black object-cover "
+                />
+                <div className=" p-[9px]">
+                  <h1 className=" text-[25px] text-black font-bold font-nunito ">
+                    Loaction
+                  </h1>
+                </div>
+              </a>
             </div>
           </div>
         )}

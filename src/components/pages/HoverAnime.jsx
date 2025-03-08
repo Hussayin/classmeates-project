@@ -2,6 +2,7 @@ import { useAnimate } from "framer-motion";
 import React, { useRef } from "react";
 import { FiMousePointer } from "react-icons/fi";
 import { TbHandClick } from "react-icons/tb";
+import { heart } from "../../assets";
 
 export const Example = () => {
   return (
