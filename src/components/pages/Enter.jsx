@@ -1,3 +1,4 @@
+import MenuAll from "../App/MenuAll";
 import Classmeates from "./Classmeates";
 import FullscreenCarousel from "./Corusel2";
 import { Example } from "./HoverAnime";
@@ -12,6 +13,7 @@ const Enter = () => {
       <Example />
       <Classmeates />
       <ImageGallery />
+      <MenuAll />
     </div>
   );
 };

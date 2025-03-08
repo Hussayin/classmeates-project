@@ -25,7 +25,7 @@ export default function ImageGallery() {
   }, [selectedImage]);
 
   return (
-    <div className=" mt-[20px]">
+    <div id="alboms" className=" mt-[20px] mb-[100px] ">
       <h1 className=" text-[30px] font-nunito text-center ">Good days</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-3">
         {images.map((img, index) => (
