@@ -62,7 +62,7 @@ const InstallPrompt = () => {
   return (
     isVisible && (
       <div
-        className="fixed h-full w-full bg-[#0000007d] z-50 flex justify-center items-center"
+        className="fixed h-full w-full bg-[#0000007d] z-[100000000000000000000000] flex justify-center items-center"
         style={{ overflow: "hidden" }}
       >
         <div className="bg-white rounded-lg p-5 w-[90%] max-w-[400px] text-center shadow-lg">
